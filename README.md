@@ -1,4 +1,17 @@
 # Stock-Market-Analysis-and-Prediction
-Stock Market Prediction aims to determine the future movement of the stock value of a financial exchange. Technical analysis focuses on analyzing historical stock prices to predict future stock values (i.e. it focuses on the direction of prices).
- || 
-Done with the Concepts of Machine Learning & Deep Learning in Python Language as a part of Summer Training Held at our collage Bharati Vidyapeeth's College of Engineering, Delhi 
+It is a model for a basic recommendation system which finds out the best 3 companies from the dataset to invest in and predicts a closing price for the opening value.
+
+Model
+
+KNN finds the closest examples from dataset in feature space based on opening and gain values.
+Top 3 classes (companies) are selected.
+Dataset of these top 3 classes (companies) is queried from the original dataset.
+Linear Regression is performed with these top 3 classes (companies).
+Dataset
+
+Taken from https://www.kaggle.com/rohanrao/nifty50-stock-market-data
+
+Based on <= 10% null values in any feature column, dataset of few companies is selected and merged into a single .xlsx and .csv file.
+New dataset is segmented into 2 parts -
+2006-2019 (training examples)
+2020-2021 (testing examples)
