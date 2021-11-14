@@ -1,4 +1,4 @@
-# Stock-Market-Analysis-and-Prediction
+# Stock-Price-Prediction-and-Recommendation-System
 It is a model for a basic recommendation system which finds out the best 3 companies from the dataset to invest in and predicts a closing price for the opening value.
 
 Model
