@@ -14,5 +14,5 @@ Taken from https://www.kaggle.com/rohanrao/nifty50-stock-market-data
 
 1. Based on <= 10% null values in any feature column, dataset of few companies is selected and merged into a single .xlsx and .csv file.
 2. New dataset is segmented into 2 parts -
-3. 2006-2019 (training examples)
-4. 2020-2021 (testing examples)
+  <i.>  2006-2019 (training examples)
+  <ii.> 2020-2021 (testing examples)
