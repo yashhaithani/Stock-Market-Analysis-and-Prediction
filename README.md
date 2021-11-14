@@ -3,15 +3,16 @@ It is a model for a basic recommendation system which finds out the best 3 compa
 
 Model
 
-KNN finds the closest examples from dataset in feature space based on opening and gain values.
-Top 3 classes (companies) are selected.
-Dataset of these top 3 classes (companies) is queried from the original dataset.
-Linear Regression is performed with these top 3 classes (companies).
+1. KNN finds the closest examples from dataset in feature space based on opening and gain values.
+2. Top 3 classes (companies) are selected.
+3. Dataset of these top 3 classes (companies) is queried from the original dataset.
+4. Linear Regression is performed with these top 3 classes (companies).
+
 Dataset
 
 Taken from https://www.kaggle.com/rohanrao/nifty50-stock-market-data
 
-Based on <= 10% null values in any feature column, dataset of few companies is selected and merged into a single .xlsx and .csv file.
-New dataset is segmented into 2 parts -
-2006-2019 (training examples)
-2020-2021 (testing examples)
+1. Based on <= 10% null values in any feature column, dataset of few companies is selected and merged into a single .xlsx and .csv file.
+2. New dataset is segmented into 2 parts -
+3. 2006-2019 (training examples)
+4. 2020-2021 (testing examples)
